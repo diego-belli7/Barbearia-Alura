@@ -1,3 +1,21 @@
 body{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 255, 255);
+}
+#banner{
+    width: 100%;
+}
+
+h1{
+    color: black ; text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#missao{
+    font-size: 20xp;
+}
+em strong{
+    color: red;
 }
