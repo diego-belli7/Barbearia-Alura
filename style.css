@@ -1,9 +1,11 @@
 body{
-    background-color: white
+    background-color: white;
 }
 
 .principal{
-    background-color: #ccc
+    background-color: #ccc;
+    padding: 20px;
+    
 }
 
 #banner{
@@ -35,3 +37,17 @@ em strong{
 }
 
 
+h2{
+    color: black; text-align: center;
+}
+
+.imagembeneficios{
+    width: 50%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin-right: 15px;
+}
