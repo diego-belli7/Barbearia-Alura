@@ -1,5 +1,5 @@
 header {
-	background:hsl(0, 0%, 12%);
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -7,7 +7,6 @@ header {
 	width: 940px;
 	position: relative;
 	margin: 0 auto;
-	
 }
 
 nav{
@@ -23,21 +22,21 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
+	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
-	color:white
 }
 
 nav a:hover{
-	color: #1635bb;
+	color: #c78c19;
 	text-decoration: underline;
 }
 
 .produtos{
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px;
+	/*padding: 50px;*/	
 }
 .produtos li{
 	display: inline-block;
@@ -58,13 +57,8 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color:  #1635bb;
-	text-decoration: underline;
+	border-color: #c78c19;
 	
-}
-
-.produtos li:hover h2{
-	font-size: 35px;
 }
 
 .produtos li:active{
@@ -76,17 +70,4 @@ nav a:hover{
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px;
-}
-
-footer{
-	background-color: hsl(204, 91%, 70%);
-	text-align: center;
-	background: url(bg.jpg);
-	padding: 40px 0;
-	
-}
-
-footer p{
-	color: white;
-	font-size: 12px;
 }
