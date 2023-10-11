@@ -123,7 +123,7 @@ textarea{
 }
 
 .checkbox{
-	margin: 20px 0 0 0 ;
+	margin: 20px 0 0 0;
 }
 
 .enviar{
@@ -135,20 +135,25 @@ textarea{
 }
 
 .enviar:hover{
-	background-color:#3ca7ff}
+	background-color: #3ca7ff;
+}
 
-	table{
-		margin: 20px 0 40px;
-	}
+table{
+	margin: 20px 0 40px;
+}
 
-	thead{
-		background: #4b4848;
-		color: rgb(255, 255, 255);
-		font-weight: bold;
-		
-	}
+thead{
+	background: #4b4848;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
 
-	td{
-		border: 1.4px solid black;
-		padding: 15px 10px;
-	}
+td{
+	border: 1.4px solid #000;
+	padding: 15px 10px;
+}
+
+/*CSS da página principal*/
+.banner{
+	width: 100%;
+}
