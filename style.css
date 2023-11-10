@@ -22,14 +22,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover{
-	color: #200ccf;
+	color: #3223b4;
 	text-decoration: underline;
 }
 
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #200ccf;
+	border-color: #3e32a8;
 	
 }
 
@@ -130,16 +130,16 @@ textarea{
 .enviar{
 	width: 40%;
 	padding: 15px 0;
-	background-color:orange ;
-	color: aquamarine;
+	background-color:#999999 ;
+	color: rgb(255, 255, 255);
 	font-size: 18px;
 	font-weight: bold;
-	transition: 0.5s all;
+	transition: 0.7s all;
 }
 
 .enviar:hover{
-	background-color: black;
-	color: white;
+	background-color: rgb(147, 192, 250);
+	color: rgb(255, 254, 254);
 	transform: scale(1.05);
 }
 
